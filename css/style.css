@@ -1,0 +1,352 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f1f1f1;
+    position: relative;
+}
+
+.container {
+    max-width: 1366px !imporatnt;
+}
+
+h1,h2,h3,h5,
+.highlight {
+    color: #322c5c;
+}
+
+p {
+    color: #252525;
+    margin-bottom: 0;
+}
+
+header {
+    background: url(../images/header_section_image.png);
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+
+header .logo {
+    padding-top: 50px;
+}
+header .logo img{
+    width: 130px;
+}
+header .hero-text {
+    margin-top: 80px;
+}
+header .hero-text h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #322c5c;
+    margin: 0;
+    font-size: 45px;
+}
+header .hero-text p{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+header .banner_body_text {
+    margin-top: 70px;
+}
+
+header .copy, 
+.monitor .copy {
+    margin-top: 40px;
+}
+
+.monitor .copy:first-child {
+    margin-top: 0;
+}
+
+header .banner_body_text h2,
+.monitor .monitor_body_text h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #322c5c;
+    margin-bottom: 12px;
+}
+header .banner_body_text p,
+.monitor .monitor_body_text p{
+    color: #252525;
+}
+
+
+.contact_section {
+    margin-bottom: 150px;
+}
+.contact_section form{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact_section .col {
+    padding: 0;
+}
+
+.contact_section .btn-custom{
+    color: #322c5c;
+    background: #52dee2;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 0;
+}
+.contact_section .form-control{
+    background: #322c5c;
+    border-radius: 0;
+    border: 0;
+    padding:  30px 15px;
+    margin: 2px 0;
+}
+.contact_section .name,
+.contact_section .email{
+    background: #322c5c;
+}
+
+.contact_section .name{
+    border-right: 1px solid #f1f1f142;
+}
+
+
+.review,
+.monitor,
+.industry,
+.stream,
+.websites {
+    margin-bottom: 150px;
+}
+
+.review h1,
+.monitor h1,
+.industry h1,
+.stream h1,
+.websites h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 12px;
+}
+
+.industry h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.service {
+    margin-top: 120px;
+}
+
+.item {
+    position: relative;
+    text-align: center;
+    background: #fff;
+    padding: 15px;
+    width: 170px;
+    height: 170px;
+    box-shadow: 1px 1px 5px 1px rgba(83,83,83,0.2);
+    margin: 0 auto;
+    transition: all 0.4s ease;
+}
+.item-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.item-box img{
+    margin: 0 auto;
+}
+.item-box p {
+    font-size: 16px !important;
+}
+
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid #252525;
+    margin-top: 50px;
+}
+
+.owl-theme .owl-dots .owl-dot span:hover {
+    background: #252525;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    border: 1px solid #252525;
+    background: #252525;
+}
+
+
+.owl-item {
+    padding: 10px 0;
+}
+
+.review p,
+.industry p,
+.stream p,
+.websites p {
+    font-size: 20px;
+}
+
+.lamppost {
+    position: absolute;
+    left: 0;
+    top: 12.7%;
+    z-index: -1;
+}
+
+.curve_shape1{
+    position: absolute;
+    left: 0;
+    top: 42%;
+    z-index: -1;
+}
+.curve_shape2 {
+    position: absolute;
+    left: 0;
+    top: 75%;
+    z-index: -1;
+}
+
+.img_back {
+    z-index: -2;
+}
+
+.img-front {
+    z-index: 1;
+}
+
+.review_boxes .box{
+    width: 250px;
+    height: 250px;
+    background: #fff;
+    box-shadow: 5px 5px 20px 6px #ccc;
+    text-align: center;
+    position: relative;
+    margin-left: 150px;
+    transition: all 0.4s ease;
+}
+
+.review_boxes .first-row {
+    margin-bottom: 120px;
+}
+
+.review_boxes .box.email {
+    margin-right: 80px;
+}
+
+.review_boxes .box.email,
+.review_boxes .box.kiosk {
+    margin-top: 80px;
+}
+
+.review_boxes .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.review_boxes .box img{
+    margin-bottom: 40px;
+    width: 60%;
+}
+.review_boxes .box h5{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.review_boxes .box:hover,
+.item:hover {
+    background: #322c5c;
+    cursor: pointer;
+}
+.review_boxes .box:hover h5,
+.item:hover p {
+    color: #fff;
+}
+
+.app-screen {
+    margin-bottom: 150px;
+}
+
+.app-screen .arrow1{
+    text-align: center;
+    transform: rotate(-40deg);
+    width: 10%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-left: 63%;
+}
+.app-screen p{
+    text-align: right;
+    color: #322c5c;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 22%;
+}
+
+.app-screen .arrow2{
+    text-align: center;
+    transform: rotate(140deg);
+    margin-bottom: 50px;
+    margin-left: -16%;
+}
+
+.monitor .heading, 
+.stream .heading {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.monitor .container-fluid {
+    padding: 0 !important;
+}
+
+.stream .stream_body_text {
+    margin-left: 25%;
+}
+.stream .stream_body_text .copy{
+    margin-top: 30px;
+}
+
+.stream .stream_body_text p {
+    font-size: 16px;
+}
+
+.highlight {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.image_row {
+    margin-bottom: 50px;
+}
+
+
+.images_col {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.websites .heading {
+    margin-bottom: 120px;
+}
+
+footer {
+    background: #000000;
+    text-align: center;
+}
+footer p{
+    color: #fff;
+    padding: 20px 0;
+}
+
+
